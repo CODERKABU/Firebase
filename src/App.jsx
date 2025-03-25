@@ -101,12 +101,9 @@ function App() {
           <tr>
             <td>gender</td>
             <td>
-              <input type="radio" name="male" value="male" onChange={(e) => getInput(e)} checked={record.gender=='male'?"checked":""} /> Male
-              <input type="radio" name="female" value="female" onChange={(e) => getInput(e)} checked={record.gender == 'female'?"checked":""} /> Female
-            </td>            
-
-
-            
+                <input type="radio" name="gender" value="male" onChange={(e) => getInput(e)} checked={record.gender=='male'?"checked":""} />Male
+                <input type="radio" name="gender" value="female" onChange={(e) => getInput(e)} checked={record.gender=='female'?"checked":""} />Female
+            </td>           
           </tr>
 
           <tr>
